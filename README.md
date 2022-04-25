@@ -16,7 +16,7 @@ Descreva os objetivos do seu projeto e como ele funciona.
 
 ## Screenshots
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![img-1](./screenshots/1.png)
 
 ## Instalação
 
@@ -25,28 +25,40 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 **Pré-requisitos:**<br>
 &ensp; &diams; _Sistema Operacional Recomendado_: Ubuntu e derivados<br>
 &ensp; &diams; [Node.js](https://nodejs.org/en/)<br>
-&ensp; &diams; [React](https://reactjs.org/)<br>
+&ensp; &diams; [ReactJS](https://reactjs.org/)<br>
 &ensp; &diams; [Yarn](https://yarnpkg.com/)<br>
 
 ## Uso
 
-Acesse o [link]()<br>
+Acesse o [link]() ou execute de forma local como é apresentado abaixo.<br>
 
-### Ambiente de Desenvolvimento
+### Execução local da aplicação:
 
 Clone o Repositório:<br>
-`https://github.com/projeto-de-algoritmos/Final_Happnap.git`<br>
 
-Acesse a pasta:<br>
-`cd Final_Happnap`<br>
+```
+$ git clone https://github.com/projeto-de-algoritmos/Final_Happnap.git
+```
+
+Acesse o arquivo do projeto:<br>
+
+```
+$ cd Final_Happnap
+```
 
 Instale as dependências necessárias:<br>
-`yarn`<br>
 
-Rode a aplicação:<br>
-`yarn start`<br>
+```
+$ yarn
+```
 
-O projeto encontra-se na porta _localhost:3000_
+Roda o aplicativo em modo de desenvolvimento:<br>
+
+```
+$ yarn start
+```
+
+Abra _http://localhost:3000_ para ver em seu navegador.
 
 <!-- ## Outros
 
