@@ -3,7 +3,7 @@ import HappnCard from "react-tinder-card";
 import "./HappnCards.css";
 import { getPeople } from "../../api/api";
 import Graph from "../../algorithm/Graph.js";
-
+import { mergeSort } from "../../algorithm/merge.js";
 
 function HappnCards() {
   const [people, setPeople] = useState([]);
@@ -13,11 +13,15 @@ function HappnCards() {
     const peopleList = await getPeople();
     setPeople(peopleList)
     createGraph(peopleList)
+    sorting(peopleList)
   }
+
+
 
   async function createGraph(peopleList) {
 
     let g = new Graph();
+
     let first = ""
     let distances = await peopleList.map((person, index) => {
       g.addVertex(person.id)
@@ -35,8 +39,32 @@ function HappnCards() {
     console.log(distances)
 
     g.dijkstra(distances[0].id);
-
   }
+
+
+
+
+  async function sorting(peopleList) {
+
+    let distances = await peopleList.map((person) => {
+      console.log('Os valores da distancia: ', person.distance);
+      return (person.distance)
+    })
+
+    setDistance(distances)
+    console.log("aqui", distances)
+
+    let ids = mergeSort(distances)
+    console.log("id", ids)
+
+    let ordenado = await peopleList.forEach((person, index) => {
+
+    })
+    console.log("ord", ordenado)
+  }
+
+
+
 
   useEffect(() => {
     fetchPeople()
@@ -64,7 +92,7 @@ function HappnCards() {
               style={{ backgroundImage: `url(${person.avatar})` }}
             >
               <h2>{person.name}</h2>
-              <h3>{person.distance}</h3>
+              <h3>{person.distance} KM</h3>
             </div>
 
             <></>
