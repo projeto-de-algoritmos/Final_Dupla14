@@ -35,7 +35,14 @@
 
 .card h3 {
   position: absolute;
-  bottom: 0;
-  margin: 30px;
+  bottom: 30px;
+  margin: 10px;
+  color: #fff;
+}
+
+.card h1 {
+  position: absolute;
+  bottom: 400px;
+  margin: 10px;
   color: #fff;
 }

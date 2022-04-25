@@ -95,7 +95,8 @@ function HappnCards() {
                   style={{ backgroundImage: `url(${person.avatar})` }}
                 >
                   <h2>{person.name}</h2>
-                  <h3>{person.distance} KM</h3>
+                  <h1>{person.distance} Km</h1>
+                  <h3>{person.age} Anos</h3>
                 </div>
               </HappnCard>
             ))}
