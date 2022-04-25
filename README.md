@@ -17,6 +17,7 @@ Descreva os objetivos do seu projeto e como ele funciona.
 ## Screenshots
 
 ![img-1](./screenshots/1.png)
+![img-1](./screenshots/2.png)
 
 ## Instalação
 
@@ -63,3 +64,5 @@ Abra _http://localhost:3000_ para ver em seu navegador.
 <!-- ## Outros
 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo. -->
+
+<div align="center"><footer>&copy; Copyright 2022 </footer></div>
