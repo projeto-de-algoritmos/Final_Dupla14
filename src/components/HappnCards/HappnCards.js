@@ -6,7 +6,6 @@ import Graph from "../../algorithm/Graph.js";
 import { mergeSort } from "../../algorithm/merge.js";
 
 
-
 function HappnCards() {
   const [people, setPeople] = useState([]);
   const [distance, setDistance] = useState([]);

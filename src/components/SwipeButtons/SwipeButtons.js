@@ -16,11 +16,14 @@ function SwipeButtons() {
 
   return (
     <div className="swipeButtons">
+
       <IconButton onClick={handleClickFail} className="swipeButtons__left" >
         <CloseIcon fontSize="large" />
+        <h3>Deslize para Esquerda</h3>
       </IconButton>
       <IconButton onClick={handleClickSucess} className="swipeButtons__right">
         <FavouriteIcon fontSize="large" />
+        <h3> Deslize para Direita</h3>
       </IconButton>
     </div>
 

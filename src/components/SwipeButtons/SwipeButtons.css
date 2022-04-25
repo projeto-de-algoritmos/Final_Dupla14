@@ -6,17 +6,17 @@
   justify-content: space-evenly;
 }
 
-.swipeButtons .MuiIconButton-root {
+/* .swipeButtons .MuiIconButton-root {
   background-color: white;
   box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important ;
-}
+} */
 
 .swipeButtons__left {
   padding: 2vw !important;
-  color: #ec5e6f !important;
+  color: #121212 !important;
 }
 
 .swipeButtons__right {
   padding: 2vw !important;
-  color: #76e2b3 !important;
+  color: #121212 !important;
 }
