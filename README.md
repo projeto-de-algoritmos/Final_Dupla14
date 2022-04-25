@@ -12,7 +12,7 @@
 
 ## Sobre
 
-Descreva os objetivos do seu projeto e como ele funciona.
+Para essa entrega final, desenvolvemos um aplicativo de relacionamento baseado na localização do usuário, permitindo aos usuários curtir ou descurtir outros usuários. Nele estão presentes os algoritmos de Dijkstra e Merge Sort. No aplicativo é possível visualizar a distância mínima em Km de um usuário para outro, e também há uma ordenação dos usuários que estão mais próximos de você.
 
 ## Screenshots
 
