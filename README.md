@@ -31,10 +31,6 @@ Descreva os objetivos do seu projeto e como ele funciona.
 
 ## Uso
 
-Acesse o [link]() ou execute de forma local como é apresentado abaixo.<br>
-
-### Execução local da aplicação:
-
 Clone o Repositório:<br>
 
 ```
@@ -65,4 +61,4 @@ Abra _http://localhost:3000_ para ver em seu navegador.
 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo. -->
 
-<div align="center"><footer>&copy; Copyright 2022 </footer></div>
+<div align="center"><footer>&copy; Copyright </footer></div>
